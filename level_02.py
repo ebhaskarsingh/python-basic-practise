@@ -64,3 +64,22 @@ for i in range(1,n+1):
     fact = fact*i
 
 print(fact)
+
+
+# wap to find the nth fibonacci number\\
+
+num = int(input("enter thr number:"))
+first = 0
+second = 1
+sum = 0
+if num == 0:
+    print(first)
+elif num == 1:
+    print(second)
+else:
+    for i in range(2,num):
+        
+        sum = first+second
+        first = second
+        second = sum
+    print(sum)
