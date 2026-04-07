@@ -1,4 +1,4 @@
-'''# wap to reverse a string\\
+# wap to reverse a string\\
 string = input("enter the string:")
 reverse = string[::-1]
 print(reverse)
@@ -45,7 +45,7 @@ string1 = set(string)
 for i in string1:
 
     count = string.count(i)
-    print(i,":",count)'''
+    print(i,":",count)
 
 # wap to find the largest word in a string\\
 
