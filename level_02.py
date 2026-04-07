@@ -83,3 +83,27 @@ else:
         first = second
         second = sum
     print(sum)
+
+
+# wap to count odd and even numbers from given list\\
+
+l = [1,2,3,4,5,6,7,8,9]
+even =0
+odd = 0
+for i in l:
+    if i%2==0:
+        even = even+1
+    else:
+        odd = odd+1
+
+print("even number:",even)
+print("odd numbers:",odd)
+
+# wap to find the GCD of two numbers\\
+num1 = int(input("enter the first number:"))
+num2 = int(input("enter the second number:"))
+gcd = 1
+for i in range(1,min(num1,num2)+1): # here min(num1,num2) will pick the smaller number between num1 and num2 \\
+    if num1%i==0 and num2%i == 0:
+        gcd = i
+print(gcd)
