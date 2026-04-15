@@ -25,3 +25,12 @@ for i in l:
     if i>first:
         first = i
 print(first)
+
+# wap to find the index where the target met\\]
+
+l = [1,2,3,4,5]
+target = 3
+for i in range(len(l)):
+    for j in range(i+1,len(l)):
+        if l[i]+l[j]==target:
+            print(i,j)
