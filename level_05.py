@@ -16,3 +16,12 @@ if string == string[::-1]:
     print("true")
 else:
     print("false")
+
+
+# wap to find the largest number in a list\\
+l=[1,2,3,4,5]
+first = l[0]
+for i in l:
+    if i>first:
+        first = i
+print(first)
